@@ -1,0 +1,164 @@
+
+/* General styles */
+p, section{
+    /* Sets a max-width for all paragraphs */
+    max-width:600px;
+
+    /* Uses the margin trick to center */
+    margin:10px auto;
+  }
+
+ img{
+
+ 	/* Automatically resizes the images to fit the window width */
+ 	max-width: 100%;
+ 	height: auto;
+ }
+
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+ /* Link styles */
+a{
+	color: #478bb8;
+}
+
+a:hover{
+ 	background: #e6e6e6;
+ }
+
+ 
+/* Body styles */
+ body{
+
+ 	/* Sets the font family for the body*/
+	font-family: 'Playfair Display', sans-serif;
+ }
+
+/* Header styles */
+header{
+
+	/* Centers the header text */
+	text-align: center;
+
+	/* Sets the font family for the body*/
+	font-family: 'Pllayfair Display', sans-serif;
+
+}
+
+header h1{
+
+	/* Limits the width of the headline so that it's more readable */
+	max-width: 760px;
+
+	/* Uses the margin trick to center */
+	margin: 10px auto;
+ 
+	/* Left-aligns the text */
+	text-align: left;
+}
+
+header h2, h3{
+
+	/* Limits the width of the headline so that it's more readable */
+	max-width: 750px;
+
+	/*Sets a smaller font size for h2s in the header section */
+	font-size: 18px;
+
+	/* Uses the margin trick to center */
+	margin: 10px auto;
+
+	/* Left-aligns the text */
+	text-align: left;
+}
+
+header h3 {
+
+	/*Sets a smaller font size for h3s in the header section */
+	font-size: 14px;
+
+}
+
+ /* Styles for the banner image and caption */
+figure.banner{
+
+ 	/* This display allows the figcaption to align with the image */
+ 	display:inline-block;
+
+	/* Uses the margin trick to center */
+ 	margin: 0px auto;
+ }
+
+ figcaption.bannerCaption{
+
+ 	/* Sets the font size for the caption text */
+	font-size: 12px;
+	
+	/* Centers the caption text */
+	text-align: right;
+
+	/* A margin-left of 20px helps the caption appear centered with the image even though it's technically a little shorter */
+	margin-left: 20px;
+ }
+
+ /* Styles for section headers */
+ .content-block h2{
+
+	/* Tweaking the top and bottom margins to make them look neater */
+	margin-top: 30px;
+	margin-bottom: -5px;
+ }
+
+/* Chart styles*/
+p.chartWrapper {
+
+	/* Adds space above and below the chart */
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+	/* Overrides the Max Width setting for paragraphs */
+	max-width: 700px;
+
+	padding: 20px;
+	border: 5px double #2166ac;
+}
+
+/* Twitter embed styles */
+.twitter-tweet {
+
+	/* Adds a little space above and below */ 
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+	/* Uses the margin trick to center */
+    margin: 10px auto;
+	
+}
+
+/* Styles for the final section */
+section.last{
+
+	/*  Adds some breathing room after the last paragraph */
+	margin-bottom: 25px;
+}
+
+/* Styles for the credit line */
+#credit {
+	text-align: right;
+	font-style: italic;
+	font-size: 12px;
+}
+
+#topHeader {
+	color: #FFFFFF;
+	background-image: linear-gradient(to right, #eceff4, #9B1B30);
+}
+
+.firstCap{
+	font-size: 21px;
+}
