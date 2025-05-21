@@ -5,7 +5,7 @@ METHODOLOGY
 
 The goal of this analysis was to compare the proportion of property tax reductions each borough received from the New York City Tax Commission, by how much each borough paid in property taxes.
 
-The analysis of this data depended on the Sandeep Junnarkar's function to analyze the entire tax-roll of New York City. I downloaded the publicly available tax-roll for all tax classes from the city's Department of Finance page (https://www.nyc.gov/site/finance/property/property-assessments.page)   
+The analysis of this data depended on Sandeep Junnarkar's function to analyze the entire tax-roll of New York City. I downloaded the publicly available tax-roll for all tax classes from the city's Department of Finance page (https://www.nyc.gov/site/finance/property/property-assessments.page)   
 
 Using Sandeep's function, the data was broken down into chunks so it could be accessed. 
 
